@@ -27,7 +27,7 @@ use App\Http\Controllers\SignalmanController;
 Route::get('/', function () {
     $urlLogo=url("storage/img/logo.png");
     $urlDescription=url("storage/img/description_changepro.gif");
-    $urlHome1=url("storage/img/home_1.gif");
+    $urlHome1=asset("storage/img/home_1.gif");
     $urlHome2=url("storage/img/home_2.gif");
     $urlHome3=url("storage/img/home_3.jpg");
     

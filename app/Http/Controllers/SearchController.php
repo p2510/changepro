@@ -30,6 +30,14 @@ class SearchController extends Controller
         // end 
       
         
+        if ($search_cached=Redis::get("search_ID".$search_val)){
+            Redis::expire("search_ID".$search_val,60*60*2);
+            $data_transfer = json_decode($search_cached,TRUE);
+            return Inertia::render('Search',[
+                'urlLogo' => $urlLogo,
+                "data_transfer"=>$data_transfer,
+            ]);
+        } else {
             $data_transfer=DB::table('transfers')
             ->where("status","progressing")
             ->where(function($query) use($search_val){
@@ -42,10 +50,9 @@ class SearchController extends Controller
             ->select("transfers.*","users.name","users.surname")
             ->orderByDesc('transfers.created_at')
             ->get();
-            return Inertia::render('Search',[
-                'urlLogo' => $urlLogo,
-                "data_transfer"=>$data_transfer,
-            ]);
+            Redis::setex("search_ID".$search_val,60*60*2,$data_transfer);  // set in redis db 
+            
+        }
       
         
     }

@@ -857,6 +857,9 @@ select {
 .mt-20 {
   margin-top: 5rem;
 }
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
 .block {
   display: block;
 }
@@ -1081,6 +1084,9 @@ select {
 .justify-between {
   justify-content: space-between;
 }
+.justify-around {
+  justify-content: space-around;
+}
 .justify-items-center {
   justify-items: center;
 }
@@ -1118,6 +1124,9 @@ select {
 }
 .gap-y-2 {
   row-gap: 0.5rem;
+}
+.gap-y-4 {
+  row-gap: 1rem;
 }
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -1652,6 +1661,9 @@ select {
 }
 .leading-snug {
   line-height: 1.375;
+}
+.leading-loose {
+  line-height: 2;
 }
 .tracking-tight {
   letter-spacing: -0.025em;
@@ -2258,6 +2270,10 @@ select {
 
   .sm\:mt-24 {
     margin-top: 6rem;
+  }
+
+  .sm\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .sm\:block {

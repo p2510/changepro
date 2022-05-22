@@ -23447,37 +23447,30 @@ var _hoisted_3 = {
   "class": "relative flex justify-between xl:grid xl:grid-cols-12 lg:gap-8"
 };
 var _hoisted_4 = {
-  "class": "flex md:absolute md:left-0 md:inset-y-0 lg:static xl:col-span-2"
-};
-var _hoisted_5 = {
-  "class": "flex-shrink-0 flex items-center"
-};
-var _hoisted_6 = ["src"];
-var _hoisted_7 = {
   "class": "min-w-0 flex-1 md:px-8 lg:px-0 xl:col-span-6"
 };
-var _hoisted_8 = {
+var _hoisted_5 = {
   "class": "flex items-center px-6 py-4 md:max-w-3xl md:mx-auto lg:max-w-none lg:mx-0 xl:px-0"
 };
-var _hoisted_9 = {
+var _hoisted_6 = {
   "class": "w-full"
 };
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "for": "search",
   "class": "sr-only"
 }, "Recherche", -1
 /* HOISTED */
 );
 
-var _hoisted_11 = {
+var _hoisted_8 = {
   "class": "pointer-events-none absolute inset-y-0 left-0 pl-3 flex items-center"
 };
-var _hoisted_12 = {
+var _hoisted_9 = {
   "class": "flex gap-x-2"
 };
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
   type: "submit",
   "class": "cursor-pointer bg-indigo-700 text-white rounded-md hover:text-indio-600 hover:bg-white hover:text-indigo-600 hover:outline :hover:outline-indigo-600 transition duration-500 ease-in-out p-1 sm:p-2 md:p-3",
   value: "Rechercher"
@@ -23485,86 +23478,84 @@ var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_14 = {
+var _hoisted_11 = {
   "class": "flex items-center md:absolute md:right-0 md:inset-y-0 lg:hidden"
 };
 
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "sr-only"
 }, "Ouvrir menu", -1
 /* HOISTED */
 );
 
-var _hoisted_16 = {
+var _hoisted_13 = {
   "class": "hidden lg:flex lg:items-center lg:justify-end xl:col-span-4"
 };
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "sr-only"
 }, "Ouvrir menu", -1
 /* HOISTED */
 );
 
-var _hoisted_18 = ["src"];
+var _hoisted_15 = ["src"];
+
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Mes tranferts ");
+
+var _hoisted_17 = {
+  "class": "max-w-3xl mx-auto px-2 pt-2 pb-3 space-y-1 sm:px-4"
+};
+var _hoisted_18 = {
+  "class": "truncate"
+};
 
 var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Mes tranferts ");
 
 var _hoisted_20 = {
-  "class": "max-w-3xl mx-auto px-2 pt-2 pb-3 space-y-1 sm:px-4"
-};
-var _hoisted_21 = {
-  "class": "truncate"
-};
-
-var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Mes tranferts ");
-
-var _hoisted_23 = {
   "class": "border-t border-gray-200 pt-4 pb-3"
 };
-var _hoisted_24 = {
+var _hoisted_21 = {
   "class": "max-w-3xl mx-auto px-4 flex items-center sm:px-6"
 };
-var _hoisted_25 = {
+var _hoisted_22 = {
   "class": "flex-shrink-0"
 };
-var _hoisted_26 = ["src"];
-var _hoisted_27 = {
+var _hoisted_23 = ["src"];
+var _hoisted_24 = {
   "class": "ml-3"
 };
-var _hoisted_28 = {
+var _hoisted_25 = {
   "class": "text-base font-medium text-gray-800"
 };
-var _hoisted_29 = {
+var _hoisted_26 = {
   "class": "text-sm font-medium text-gray-500"
 };
-var _hoisted_30 = {
+var _hoisted_27 = {
   "class": "mt-3 max-w-3xl mx-auto px-2 space-y-1 sm:px-4"
 };
-var _hoisted_31 = {
+var _hoisted_28 = {
   "class": "py-10"
 };
-var _hoisted_32 = {
+var _hoisted_29 = {
   "class": "max-w-3xl mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-12 lg:gap-8"
 };
-var _hoisted_33 = {
+var _hoisted_30 = {
   "class": "hidden lg:block lg:col-span-3 xl:col-span-2"
 };
-var _hoisted_34 = {
+var _hoisted_31 = {
   "aria-label": "Sidebar",
   "class": "sticky top-4 divide-y divide-gray-300"
 };
-var _hoisted_35 = {
+var _hoisted_32 = {
   "class": "pb-8 space-y-1"
 };
-var _hoisted_36 = {
+var _hoisted_33 = {
   "class": "truncate"
 };
-var _hoisted_37 = {
+var _hoisted_34 = {
   "class": "lg:col-span-9 xl:col-span-10"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
-
   var _component_SearchIcon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("SearchIcon");
 
   var _component_MenuIcon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("MenuIcon");
@@ -23574,6 +23565,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_PopoverButton = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("PopoverButton");
 
   var _component_MenuButton = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("MenuButton");
+
+  var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
 
   var _component_MenuItem = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("MenuItem");
 
@@ -23594,30 +23587,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       var open = _ref.open;
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", {
         "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([open ? 'fixed inset-0 z-40 overflow-y-auto' : '', 'bg-white shadow-sm lg:static lg:overflow-y-visible'])
-      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
-        href: "/"
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-            "class": "block h-8 w-auto",
-            src: $props.urlLogo,
-            alt: "Logo ChangePro"
-          }, null, 8
-          /* PROPS */
-          , _hoisted_6)];
-        }),
-        _: 1
-        /* STABLE */
-
-      })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
+      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [_hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
         onSubmit: _cache[1] || (_cache[1] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
           return $setup.searching && $setup.searching.apply($setup, arguments);
         }, ["prevent"])),
         "class": "relative"
-      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SearchIcon, {
+      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SearchIcon, {
         "class": "h-5 w-5 text-gray-400",
         "aria-hidden": "true"
-      })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+      })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
         "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
           return $setup.f1.search = $event;
         }),
@@ -23628,13 +23606,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         type: "search"
       }, null, 512
       /* NEED_PATCH */
-      ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.f1.search]]), _hoisted_13])], 32
+      ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.f1.search]]), _hoisted_10])], 32
       /* HYDRATE_EVENTS */
-      )])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Mobile menu button "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_PopoverButton, {
+      )])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Mobile menu button "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_PopoverButton, {
         "class": "-mx-2 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_15, !open ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_MenuIcon, {
+          return [_hoisted_12, !open ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_MenuIcon, {
             key: 0,
             "class": "block h-6 w-6",
             "aria-hidden": "true"
@@ -23649,7 +23627,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
       }, 1024
       /* DYNAMIC_SLOTS */
-      )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Profile dropdown "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Menu, {
+      )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Profile dropdown "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Menu, {
         as: "div",
         "class": "flex-shrink-0 relative ml-5"
       }, {
@@ -23658,13 +23636,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             "class": "bg-white rounded-full flex focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [_hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+              return [_hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
                 "class": "h-8 w-8 rounded-full",
                 src: $setup.user.imageUrl + _ctx.$page.props.auth.user.name,
                 alt: "photo"
               }, null, 8
               /* PROPS */
-              , _hoisted_18), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.auth.user.name), 1
+              , _hoisted_15), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.auth.user.name), 1
               /* TEXT */
               )];
             }),
@@ -23735,7 +23713,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         "class": "ml-6 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_19];
+          return [_hoisted_16];
         }),
         _: 1
         /* STABLE */
@@ -23746,7 +23724,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         "aria-label": "Global"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.navigation, function (item) {
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.navigation, function (item) {
             return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_BreezeNavLink, {
               key: item.name,
               href: item.href,
@@ -23757,7 +23735,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                   "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([item.current ? 'text-white' : 'text-white group-hover:text-white', 'flex-shrink-0 -ml-1 mr-3 h-6 w-6'])
                 }, null, 8
                 /* PROPS */
-                , ["class"])), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.name), 1
+                , ["class"])), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.name), 1
                 /* TEXT */
                 )];
               }),
@@ -23774,22 +23752,22 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             "class": "mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [_hoisted_22];
+              return [_hoisted_19];
             }),
             _: 1
             /* STABLE */
 
-          })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+          })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
             "class": "h-10 w-10 rounded-full",
             src: $setup.user.imageUrl + _ctx.$page.props.auth.user.name,
             alt: "Photo de profil"
           }, null, 8
           /* PROPS */
-          , _hoisted_26)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.auth.user.name), 1
+          , _hoisted_23)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.auth.user.name), 1
           /* TEXT */
-          ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.auth.user.email), 1
+          ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.auth.user.email), 1
           /* TEXT */
-          )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.userNavigation, function (item) {
+          )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.userNavigation, function (item) {
             return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
               method: item.method,
               key: item.name,
@@ -23821,7 +23799,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_34, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_35, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.navigation, function (item) {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_28, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.navigation, function (item) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_BreezeNavLink, {
       key: item.name,
       href: item.href,
@@ -23832,7 +23810,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([item.current ? 'text-white' : 'text-white group-hover:text-white', 'flex-shrink-0 -ml-1 mr-3 h-6 w-6'])
         }, null, 8
         /* PROPS */
-        , ["class"])), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_36, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.name), 1
+        , ["class"])), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_33, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.name), 1
         /* TEXT */
         )];
       }),
@@ -23844,7 +23822,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     , ["href", "active"]);
   }), 128
   /* KEYED_FRAGMENT */
-  ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Page Content "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")])])])]);
+  ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Page Content "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", _hoisted_34, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")])])])]);
 }
 
 /***/ }),
@@ -26913,7 +26891,7 @@ var _hoisted_13 = {
 var _hoisted_14 = ["src"];
 var _hoisted_15 = ["src"];
 
-var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"dark:bg-gray-900\" data-v-317d1a6e><section class=\"mx-auto container py-20\" data-v-317d1a6e><div class=\"flex justify-center items-center flex-col\" data-v-317d1a6e><div class=\"lg:text-6xl md:text-5xl text-4xl font-black leading-10 text-center text-gray-800 dark:text-white\" data-v-317d1a6e><h1 data-v-317d1a6e>Fonctionnalités sur <strong class=\"bg-indigo-700 p-1 text-white\" data-v-317d1a6e>ChangePro</strong></h1></div><div class=\"pt-24 grid lg:grid-cols-3 md:grid-cols-2 justify-center items-center xl:gap-y-16 gap-y-20 gap-x-16 lg:gap-x-20 xl:gap-x-0 lg:px-10 xl:px-0\" data-v-317d1a6e><div class=\"cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col\" data-v-317d1a6e><div class=\"mb-6\" data-v-317d1a6e><img src=\"https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_7-svg1.svg\" alt=\"arrow-1\" data-v-317d1a6e></div><div class=\"text-gray-800 dark:text-white text-2xl font-semibold text-center\" data-v-317d1a6e><h2 data-v-317d1a6e>Flux de transfert</h2></div><div class=\"text-gray-600 dark:text-gray-300 mt-2 text-lg text-center\" data-v-317d1a6e><p data-v-317d1a6e>Les flux de transfert peuvent aider à rationaliser et à automatiser les tâches de transferts répétables.</p></div></div><div class=\"cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col\" data-v-317d1a6e><div class=\"mb-6\" data-v-317d1a6e><img src=\"https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_7-svg2.svg\" alt=\"3 bars\" data-v-317d1a6e></div><div class=\"text-gray-800 dark:text-white text-2xl font-semibold text-center\" data-v-317d1a6e><h2 data-v-317d1a6e>Moins chère</h2></div><div class=\"text-gray-600 dark:text-gray-300 mt-2 text-lg text-center\" data-v-317d1a6e><p data-v-317d1a6e>Nous facilitons les paiements avec un tarif pour chaque opération à seulement <br data-v-317d1a6e><strong class=\"text-indigo-700\" data-v-317d1a6e>10 DH </strong></p></div></div><div class=\"cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col\" data-v-317d1a6e><div class=\"mb-6\" data-v-317d1a6e><img src=\"https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_7-svg3.svg\" alt=\"bars\" data-v-317d1a6e></div><div class=\"text-gray-800 dark:text-white text-2xl font-semibold text-center\" data-v-317d1a6e><h2 data-v-317d1a6e>Sécurité</h2></div><div class=\"text-gray-600 dark:text-gray-300 mt-2 text-lg text-center\" data-v-317d1a6e><p data-v-317d1a6e>Nous gérons votre sécurité afin de point laisser transparaître vos informations personnelles</p></div></div></div></div></section></div>", 1);
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"dark:bg-gray-900\" data-v-317d1a6e><section class=\"mx-auto container py-20\" data-v-317d1a6e><div class=\"flex justify-center items-center flex-col\" data-v-317d1a6e><div class=\"lg:text-6xl md:text-5xl text-4xl font-black leading-10 text-center text-gray-800 dark:text-white\" data-v-317d1a6e><h1 class=\"leading-loose\" data-v-317d1a6e>Fonctionnalités sur <strong class=\"bg-indigo-700 p-1 text-white\" data-v-317d1a6e>ChangePro</strong></h1></div><div class=\"pt-24 grid lg:grid-cols-3 md:grid-cols-2 justify-center items-center xl:gap-y-16 gap-y-20 gap-x-16 lg:gap-x-20 xl:gap-x-0 lg:px-10 xl:px-0\" data-v-317d1a6e><div class=\"cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col\" data-v-317d1a6e><div class=\"mb-6\" data-v-317d1a6e><img src=\"https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_7-svg1.svg\" alt=\"arrow-1\" data-v-317d1a6e></div><div class=\"text-gray-800 dark:text-white text-2xl font-semibold text-center\" data-v-317d1a6e><h2 data-v-317d1a6e>Flux de transfert</h2></div><div class=\"text-gray-600 dark:text-gray-300 mt-2 text-lg text-center\" data-v-317d1a6e><p data-v-317d1a6e>Les flux de transfert peuvent aider à rationaliser et à automatiser les tâches de transferts répétables.</p></div></div><div class=\"cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col\" data-v-317d1a6e><div class=\"mb-6\" data-v-317d1a6e><img src=\"https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_7-svg2.svg\" alt=\"3 bars\" data-v-317d1a6e></div><div class=\"text-gray-800 dark:text-white text-2xl font-semibold text-center\" data-v-317d1a6e><h2 data-v-317d1a6e>Moins chère</h2></div><div class=\"text-gray-600 dark:text-gray-300 mt-2 text-lg text-center\" data-v-317d1a6e><p data-v-317d1a6e>Nous facilitons les paiements avec un tarif pour chaque opération à seulement <br data-v-317d1a6e><strong class=\"text-indigo-700\" data-v-317d1a6e>10 DH </strong></p></div></div><div class=\"cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col\" data-v-317d1a6e><div class=\"mb-6\" data-v-317d1a6e><img src=\"https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_7-svg3.svg\" alt=\"bars\" data-v-317d1a6e></div><div class=\"text-gray-800 dark:text-white text-2xl font-semibold text-center\" data-v-317d1a6e><h2 data-v-317d1a6e>Sécurité</h2></div><div class=\"text-gray-600 dark:text-gray-300 mt-2 text-lg text-center\" data-v-317d1a6e><p data-v-317d1a6e>Nous gérons votre sécurité afin de point laisser transparaître vos informations personnelles</p></div></div></div></div></section></div>", 1);
 
 var _hoisted_17 = {
   "class": "2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4"
@@ -26933,7 +26911,7 @@ var _hoisted_19 = {
 
 var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "w-full lg:w-6/12"
+    "class": "w-full lg:w-6/12 mb-4 sm:mb-0"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
     "class": "w-full font-bold lg:text-4xl text-3xl lg:leading-10 dark:text-white leading-9"
   }, "Comprendre les différentes fonctionnalités de ChangePro"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -26956,7 +26934,7 @@ var _hoisted_26 = {
 
 var _hoisted_27 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "w-full lg:w-6/12"
+    "class": "w-full lg:w-6/12 mb-4 sm:mb-0"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
     "class": "font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 dark:text-white"
   }, "Pourquoi aujourd'hui"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -26972,7 +26950,7 @@ var _hoisted_28 = {
 
 var _hoisted_29 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-    "class": "font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 dark:text-white"
+    "class": "font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 dark:text-white mb-2 sm:mb-0"
   }, "Comment ça fonctionne ?", -1
   /* HOISTED */
   );
@@ -27066,7 +27044,7 @@ var _hoisted_44 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"w-full px-8 dark:border-white border-gray-800 border rounded-md flex flex-col justify-start md:flex-row md:justify-between lg:justify-center gap-2 md:gap-20 py-6\" data-v-317d1a6e><p class=\"text-sm leading-none dark:text-gray-300 text-gray-600\" data-v-317d1a6e>Maroc , Casablanca </p><div class=\"flex justify-start gap-4\" data-v-317d1a6e><img class=\"bg-gray-800 rounded\" src=\"https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_4-svg1.svg\" alt=\"Email\" data-v-317d1a6e><p class=\"text-sm leading-none dark:text-gray-300 text-gray-600\" data-v-317d1a6e>changepro212@gmail.com</p></div></div><div class=\"pt-10 flex flex-col xl:flex-row justify-between\" data-v-317d1a6e><div class=\"flex flex-col md:gap-10\" data-v-317d1a6e><div class=\"flex items-start w-full\" data-v-317d1a6e><div class=\"pb-10 md:pb-0\" data-v-317d1a6e><h3 class=\"text-xl cursor-default font-semibold leading-tight dark:text-white text-gray-800 mb-8\" data-v-317d1a6e>Entreprise</h3><a href=\"https://aide.changepro.ma/#Entreprise\" target=\"_blank\" class=\"text-sm cursor-pointer block leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>Demander un partenariat</a><a href=\"https://aide.changepro.ma/#Entreprise\" target=\"_blank\" class=\"text-sm cursor-pointer block leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>Devenir affilié </a></div><div class=\"pb-10 md:pb-0 2xl:pl-20 pl-16\" data-v-317d1a6e><h3 class=\"text-xl cursor-default font-semibold leading-tight dark:text-white text-gray-800 mb-8\" data-v-317d1a6e>Support</h3><a href=\"https://aide.changepro.ma/#Support\" target=\"_blank\" class=\"text-sm block cursor-pointer leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>Moyen de paiement</a><a href=\"https://aide.changepro.ma/#Support\" target=\"_blank\" class=\"text-sm block cursor-pointer leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>Faq</a></div><div class=\"pb-10 md:pb-0 2xl:pl-20 pl-16 md:block hidden\" data-v-317d1a6e><h3 class=\"text-xl cursor-default font-semibold leading-tight dark:text-white text-gray-800 mb-8\" data-v-317d1a6e>service</h3><a href=\"https://aide.changepro.ma/#Services\" target=\"_blank\" class=\"text-sm cursor-pointer block leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>Service client</a><a href=\"https://aide.changepro.ma/#Services\" target=\"_blank\" class=\"text-sm cursor-pointer block leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>Investisseurs</a><a href=\"https://aide.changepro.ma/#Services\" target=\"_blank\" class=\"text-sm cursor-pointer block leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>Pays</a></div><div class=\"pb-10 md:pb-0 2xl:pl-20 pl-16 md:block hidden\" data-v-317d1a6e><h3 class=\"text-xl cursor-default font-semibold leading-tight dark:text-white text-gray-800 mb-8\" data-v-317d1a6e>Contacts</h3><a href=\"https://aide.changepro.ma/#Contact\" target=\"_blank\" class=\"text-sm block cursor-pointer leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>+212 776 091 982 ( whatsapp )</a></div></div></div></div><div class=\"pt-10 lg:pt-24 flex justify-center md:justify-start gap-12\" data-v-317d1a6e><a href=\"https://www.facebook.com/Changepro-104347582288179/\" target=\"_blank\" data-v-317d1a6e><img class=\"bg-gray-800 rounded p-0.5\" src=\"https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_4-svg2.svg\" alt=\"facebook\" data-v-317d1a6e></a><a href=\"https://www.instagram.com/changepro.officiel/\" target=\"_blank\" data-v-317d1a6e><img class=\"bg-gray-800 rounded p-0.5\" src=\"https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_4-svg4.svg\" alt=\"instagram\" data-v-317d1a6e></a></div>", 3);
+var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"w-full px-8 dark:border-white border-gray-800 border rounded-md flex gap-y-4 flex-col justify-start md:flex-row md:justify-between lg:justify-center gap-2 md:gap-20 py-6\" data-v-317d1a6e><p class=\"text-sm leading-none dark:text-gray-300 text-gray-600 mb-1\" data-v-317d1a6e>Maroc , Casablanca </p><div class=\"flex justify-start gap-4\" data-v-317d1a6e><img class=\"bg-gray-800 rounded\" src=\"https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_4-svg1.svg\" alt=\"Email\" data-v-317d1a6e><p class=\"text-sm leading-none dark:text-gray-300 text-gray-600\" data-v-317d1a6e>changepro212@gmail.com</p></div></div><div class=\"pt-10 flex flex-col xl:flex-row justify-between\" data-v-317d1a6e><div class=\"flex flex-col md:gap-10\" data-v-317d1a6e><div class=\"flex items-start w-full\" data-v-317d1a6e><div class=\"pb-10 md:pb-0\" data-v-317d1a6e><h3 class=\"text-xl cursor-default font-semibold leading-tight dark:text-white text-gray-800 mb-8\" data-v-317d1a6e>Entreprise</h3><a href=\"https://aide.changepro.ma/#Entreprise\" target=\"_blank\" class=\"text-sm cursor-pointer block leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>Demander un partenariat</a><a href=\"https://aide.changepro.ma/#Entreprise\" target=\"_blank\" class=\"text-sm cursor-pointer block leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>Devenir affilié </a></div><div class=\"pb-10 md:pb-0 2xl:pl-20 pl-16\" data-v-317d1a6e><h3 class=\"text-xl cursor-default font-semibold leading-tight dark:text-white text-gray-800 mb-8\" data-v-317d1a6e>Support</h3><a href=\"https://aide.changepro.ma/#Support\" target=\"_blank\" class=\"text-sm block cursor-pointer leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>Moyen de paiement</a><a href=\"https://aide.changepro.ma/#Support\" target=\"_blank\" class=\"text-sm block cursor-pointer leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>Faq</a></div><div class=\"pb-10 md:pb-0 2xl:pl-20 pl-16 md:block hidden\" data-v-317d1a6e><h3 class=\"text-xl cursor-default font-semibold leading-tight dark:text-white text-gray-800 mb-8\" data-v-317d1a6e>service</h3><a href=\"https://aide.changepro.ma/#Services\" target=\"_blank\" class=\"text-sm cursor-pointer block leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>Service client</a><a href=\"https://aide.changepro.ma/#Services\" target=\"_blank\" class=\"text-sm cursor-pointer block leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>Investisseurs</a><a href=\"https://aide.changepro.ma/#Services\" target=\"_blank\" class=\"text-sm cursor-pointer block leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>Pays</a></div><div class=\"pb-10 md:pb-0 2xl:pl-20 pl-16 md:block hidden\" data-v-317d1a6e><h3 class=\"text-xl cursor-default font-semibold leading-tight dark:text-white text-gray-800 mb-8\" data-v-317d1a6e>Contacts</h3><a href=\"https://aide.changepro.ma/#Contact\" target=\"_blank\" class=\"text-sm block cursor-pointer leading-none dark:text-gray-300 text-gray-600 mb-6\" data-v-317d1a6e>+212 776 091 982 ( whatsapp )</a></div></div></div></div><div class=\"pt-10 lg:pt-24 flex justify-around sm:justify-center md:justify-start gap-12\" data-v-317d1a6e><a href=\"https://www.facebook.com/Changepro-104347582288179/\" target=\"_blank\" data-v-317d1a6e><img class=\"bg-gray-800 rounded p-0.5\" src=\"https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_4-svg2.svg\" alt=\"facebook\" data-v-317d1a6e></a><a href=\"https://www.instagram.com/changepro.officiel/\" target=\"_blank\" data-v-317d1a6e><img class=\"bg-gray-800 rounded p-0.5\" src=\"https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_4-svg4.svg\" alt=\"instagram\" data-v-317d1a6e></a></div>", 3);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");

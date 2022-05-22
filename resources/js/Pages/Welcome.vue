@@ -46,7 +46,7 @@
       <section class="mx-auto container py-20">
         <div class="flex justify-center items-center flex-col">
           <div class="lg:text-6xl md:text-5xl text-4xl font-black leading-10 text-center text-gray-800 dark:text-white">
-            <h1>Fonctionnalités sur <strong class="bg-indigo-700 p-1 text-white">ChangePro</strong></h1>
+            <h1 class="leading-loose">Fonctionnalités sur <strong class="bg-indigo-700 p-1 text-white">ChangePro</strong></h1>
           </div>
           <div class="pt-24 grid lg:grid-cols-3 md:grid-cols-2 justify-center items-center xl:gap-y-16 gap-y-20 gap-x-16 lg:gap-x-20 xl:gap-x-0 lg:px-10 xl:px-0">
             <div class="cursor-pointer hover:shadow py-6 xl:px-4 rounded xl:w-96 w-60 flex justify-center items-center flex-col">
@@ -94,7 +94,7 @@
         <div class="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
             <p class="font-normal text-sm leading-3 text-indigo-700 dark:text-indigo-500 hover:text-indigo-800 cursor-pointer pb-2">Découverte</p>
             <div class="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
-                <div class="w-full lg:w-6/12">
+                <div class="w-full lg:w-6/12 mb-4 sm:mb-0">
                     <h2 class="w-full font-bold lg:text-4xl text-3xl lg:leading-10 dark:text-white leading-9">Comprendre les différentes fonctionnalités de ChangePro</h2>
                     <p class="font-normal text-base leading-6 text-gray-600 dark:text-gray-200 mt-6">Nous savons à quel point vous avez hâte d'effectuer votre inscription mais une minute .Nous vous recommandons de prendre connaissance de ces informations afin de mieux comprendre le fonctionnement de ChangePro pour tirer une meilleure expérience.</p>
                 </div>
@@ -138,15 +138,13 @@
            
     
             <div class="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
-                <div class="w-full lg:w-6/12">
+                <div class="w-full lg:w-6/12  mb-4 sm:mb-0">
                     <h2 class="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 dark:text-white">Pourquoi aujourd'hui</h2>
                     <p class="font-normal text-base leading-6 text-gray-600 dark:text-gray-200 mt-6 w-full lg:w-10/12 xl:w-9/12"><strong>ChangePro</strong>  est une plateforme en ligne qui vise à mettre en relation les subsahariens au Maroc pour un transfert d'argent. ChangePro permet donc de trouver un système un partenaire pour un échange . Rien que choisir <strong>ChangePro</strong>  , c'est décidé d'éliminer un problème .
                    </p>
-                  
-
                 </div>
                 <div class="w-full lg:w-6/12">
-                 <h2 class="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 dark:text-white">Comment ça fonctionne ?</h2>
+                 <h2 class="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 dark:text-white  mb-2 sm:mb-0">Comment ça fonctionne ?</h2>
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12 gap-10">
                         <!-- step 1-->
                         <div class="flex p-4 shadow-md">
@@ -202,8 +200,8 @@
                 </div>
             </div>
     
-            <div class="w-full px-8 dark:border-white border-gray-800 border rounded-md flex flex-col justify-start md:flex-row md:justify-between lg:justify-center gap-2 md:gap-20 py-6">
-                <p class="text-sm leading-none dark:text-gray-300 text-gray-600  ">Maroc , Casablanca </p>
+            <div class="w-full px-8 dark:border-white border-gray-800 border rounded-md flex gap-y-4 flex-col justify-start md:flex-row md:justify-between lg:justify-center gap-2 md:gap-20 py-6">
+                <p class="text-sm leading-none dark:text-gray-300 text-gray-600  mb-1">Maroc , Casablanca </p>
                 <div class="flex justify-start gap-4">
                    <img class="bg-gray-800 rounded" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_4-svg1.svg" alt="Email">
                     <p class="text-sm leading-none dark:text-gray-300 text-gray-600  ">changepro212@gmail.com</p>
@@ -241,10 +239,9 @@
     
             </div>
     
-            <div class="pt-10 lg:pt-24 flex justify-center md:justify-start gap-12">
+            <div class="pt-10 lg:pt-24 flex justify-around sm:justify-center md:justify-start gap-12">
                 <a href="https://www.facebook.com/Changepro-104347582288179/" target="_blank"><img class="bg-gray-800 rounded p-0.5" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_4-svg2.svg" alt="facebook"></a>
                 <a href="https://www.instagram.com/changepro.officiel/" target="_blank"><img class="bg-gray-800 rounded p-0.5" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_4-svg4.svg" alt="instagram"></a>
-  
             </div>
         </div>
     

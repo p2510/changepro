@@ -96,13 +96,7 @@ export default {
       <header :class="[open ? 'fixed inset-0 z-40 overflow-y-auto' : '', 'bg-white shadow-sm lg:static lg:overflow-y-visible']">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="relative flex justify-between xl:grid xl:grid-cols-12 lg:gap-8">
-            <div class="flex md:absolute md:left-0 md:inset-y-0 lg:static xl:col-span-2">
-              <div class="flex-shrink-0 flex items-center">
-                <Link href="/">
-                  <img class="block h-8 w-auto" :src="urlLogo" alt="Logo ChangePro" />
-                </Link>
-              </div>
-            </div>
+            
             <div class="min-w-0 flex-1 md:px-8 lg:px-0 xl:col-span-6">
               <div class="flex items-center px-6 py-4 md:max-w-3xl md:mx-auto lg:max-w-none lg:mx-0 xl:px-0">
                 <div class="w-full">
@@ -119,7 +113,6 @@ export default {
                 </div>
               </div>
             </div>
-            
             <div class="flex items-center md:absolute md:right-0 md:inset-y-0 lg:hidden">
               <!-- Mobile menu button -->
               <PopoverButton class="-mx-2 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
