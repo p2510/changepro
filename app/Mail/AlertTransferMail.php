@@ -28,7 +28,8 @@ class AlertTransferMail extends Mailable
      */
     public function build()
     {
-        return $this->subject("Demande d'echange ChangePro")
+        return $this->from("changepro212@gmail.com","changepro")
+                    ->subject("Demande d'echange ChangePro")
                     ->markdown('Email.AlertTransferEmail');
     }
 }

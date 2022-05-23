@@ -70,19 +70,19 @@ let submit = ()=>{
                     <option v-for="(country, index) in countries" :key="index" :value="country">{{country}}</option>
                   </select>
                 </div>
-                <p class="col-span-2 mt-4" >
+                <p class="col-span-3 sm:col-span-2 mt-4 text-center" >
                      <strong class="break-words">Dans quelle ville souhaitez-vous effectuer la transaction au Maroc ? </strong> 
                 </p>
-                <div class="col-span-1 mt-2">
+                <div class="col-span-3 sm:col-span-1 mt-2">
                     
                   <select v-model="form.city_selected" name="city_selected"  id="city_selected" class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full"    required autofocus autocomplete="city_selected">
                     <option v-for="(city, index) in cities" :key="index" :value="city">{{city}}</option>
                   </select>
                 </div>
-                <p class="col-span-2 mt-4" >
+                <p class="col-span-3 sm:col-span-2 mt-4 text-center" >
                     <strong class="break-words">Sur quel numéro souhaitez-vous être contacté pour un échange  ? </strong> 
                 </p>
-                <div class="col-span-1 mt-4">
+                <div class="col-span-3 sm:col-span-1 mt-4">
                     <BreezeInput  v-model="form.phone" id="phone" placeholder="ex: 0620446100"  type="number" class="mt-1 block w-full"  required autofocus autocomplete="phone" />
                 </div>
                 <!--part two  : define amount -->

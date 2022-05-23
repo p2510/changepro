@@ -18,7 +18,6 @@ import {
 import { BellIcon, FireIcon, HomeIcon, MenuIcon, TrendingUpIcon, UserGroupIcon, XIcon,ChevronDoubleLeftIcon , ChevronDoubleRightIcon } from '@heroicons/vue/outline'
 import {ref,onMounted,inject} from "vue";
 
- 
 defineProps({
     urlLogo:String,
     data_transfer:Array,
@@ -44,7 +43,7 @@ defineProps({
                       </div>
                       <div class="min-w-0 flex-1">
                         <p class="text-sm font-medium text-gray-900">
-                          <strong v-if="item.user_id!==$page.props.auth.user.id" class="hover:underline">{{ item.name }}  {{ item.surname }}</strong>
+                          <strong v-if="item.user_id!==$page.props.auth.user.id" class="hover:underline">{{ item.name.toLowerCase() }}  {{ item.surname.toLowerCase() }}</strong>
                           <strong v-else class="hover:underline">Vous</strong>
                           
                         </p>
