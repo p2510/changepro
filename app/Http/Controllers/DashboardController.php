@@ -27,7 +27,7 @@ class DashboardController extends Controller
        ->orderByDesc('transfers.created_at')
        ->paginate(8);
   
-        $urlLogo=url("storage/img/logo.png");
+        $urlLogo=url("public/storage/img/logo.png");
         return Inertia::render('Dashboard',[
             'urlLogo' => $urlLogo,
             "data_transfer"=>$data_transfer,

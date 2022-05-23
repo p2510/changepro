@@ -22,7 +22,7 @@ class NewPasswordController extends Controller
      */
     public function create(Request $request)
     {
-       $urlLogo=url("storage/img/logo.png");
+       $urlLogo=url("public/storage/img/logo.png");
 
         return Inertia::render('Auth/ResetPassword', [
             'email' => $request->email,

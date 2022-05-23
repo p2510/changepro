@@ -4,6 +4,11 @@
     </IfModule>
 
     RewriteEngine On
+    RewriteEngine On
+    RewriteBase /public
+    RewriteCond %{REQUEST_URI} !^/public/.*$
+
+`RewriteRule ^(.*)$  /public/$1`
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .

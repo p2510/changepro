@@ -9,7 +9,7 @@ class WorkingController extends Controller
 {
      public function working()
      {
-        $urlLogo=url("storage/img/logo.png");
+        $urlLogo=url("public/storage/img/logo.png");
         return Inertia::render("Working")->with([
             'urlLogo' => $urlLogo,
            

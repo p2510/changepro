@@ -7,7 +7,7 @@
     </div>
   </BreezeAuthenticatedLayout>
 </template>
-<script >
+<script>
 import BreezeAuthenticatedLayout from '@/Layouts/Authenticated.vue';
 import { Head } from '@inertiajs/inertia-vue3';
 import Card from '@/Components/Card.vue'

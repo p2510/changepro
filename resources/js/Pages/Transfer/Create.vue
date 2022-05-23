@@ -64,8 +64,6 @@ let submit = ()=>{
                     <ArrowLeftIcon class="col-span-1 w-full h-6 sm:h-10 text-indigo-700" />
                     </span>
                 </transition>
-             
-            
                 <div class="col-span-1 ">
                     
                   <select v-model="form.country_selected" name="country_selected"  id="country_selected" class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full"    required autofocus autocomplete="country_selected">

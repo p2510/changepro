@@ -17,7 +17,7 @@ class PasswordResetLinkController extends Controller
      */
     public function create()
     {
-       $urlLogo=url("storage/img/logo.png");
+       $urlLogo=url("public/storage/img/logo.png");
         return Inertia::render('Auth/ForgotPassword', [
             'urlLogo' => $urlLogo,
             'status' => session("status"),

@@ -30,7 +30,7 @@ class TransferController extends Controller
     
     public function index()
     {
-        $urlLogo=url("storage/img/logo.png");
+        $urlLogo=url("public/storage/img/logo.png");
         $data_transfer=DB::table("transfers")->where("user_id",Auth::user()->id)->orderBy("created_at","desc")->get();
         
         return Inertia::render("Transfer/Index")->with([
@@ -46,7 +46,7 @@ class TransferController extends Controller
      */
     public function create()
     {
-        $urlLogo=url("storage/img/logo.png");
+        $urlLogo=url("public/storage/img/logo.png");
         $can_post_transfer=null;
         if (Gate::allows("can-post-transfer")) {
             $can_post_transfer=true;
@@ -60,7 +60,7 @@ class TransferController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Store a newly created resource in public/storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -82,7 +82,7 @@ class TransferController extends Controller
        Arr::set($data,"user_id",Auth::user()->id);
        $data["country_fixed"] = "Maroc";
        Transfer::create($data);
-       $urlLogo=url("storage/img/logo.png"); // get url logo 
+       $urlLogo=url("public/storage/img/logo.png"); // get url logo 
        $data_transfer=Transfer::all()->where("user_id",Auth::user()->id); // get data transfer
        
        Fun::DecrementAccount(10); // decrement account
@@ -101,7 +101,7 @@ class TransferController extends Controller
     public function show($id)
     {
         $data=Transfer::findOrFail($id);
-        $urlLogo=url("storage/img/logo.png");
+        $urlLogo=url("public/storage/img/logo.png");
         return Inertia::render("Transfer/Show")->with([
             "urlLogo"=>$urlLogo,
             "data"=>$data
@@ -120,7 +120,7 @@ class TransferController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * Update the specified resource in public/storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
@@ -132,7 +132,7 @@ class TransferController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Remove the specified resource from public/storage.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -144,7 +144,7 @@ class TransferController extends Controller
 
     public function show_phone(int $id)
     {
-        $urlLogo=url("storage/img/logo.png");
+        $urlLogo=url("public/storage/img/logo.png");
         $get_phone=null;
         if (Gate::allows("can-post-transfer")) {
             $get_transfer_data=Transfer::findOrFail($id);

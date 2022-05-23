@@ -116,9 +116,8 @@ export default {
             <div class="flex items-center md:absolute md:right-0 md:inset-y-0 lg:hidden">
               <!-- Mobile menu button -->
               <PopoverButton class="-mx-2 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                <span class="sr-only">Ouvrir menu</span>
-                <MenuIcon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
-                <XIcon v-else class="block h-6 w-6" aria-hidden="true" />
+                <MenuIcon v-if="!open" class="block h-6 w-6" />
+                <XIcon v-else class="block h-6 w-6" />
               </PopoverButton>
             </div>
             <div class="hidden lg:flex lg:items-center lg:justify-end xl:col-span-4">
@@ -127,7 +126,7 @@ export default {
               <Menu as="div" class="flex-shrink-0 relative ml-5">
                 <div>
                   <MenuButton class="bg-white rounded-full flex focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                    <span class="sr-only">Ouvrir menu</span>
+                    
                     <img class="h-8 w-8 rounded-full" :src="user.imageUrl+$page.props.auth.user.name" alt="photo" />{{$page.props.auth.user.name }}
                   </MenuButton>
                 </div>

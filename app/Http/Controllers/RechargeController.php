@@ -11,7 +11,7 @@ class RechargeController extends Controller
 {
     public function index()
     {
-       $urlLogo=url("storage/img/logo.png");
+       $urlLogo=url("public/storage/img/logo.png");
        $data_recharge=Recharge::where("user_id",Auth::user()->id)->get();
        return Inertia::render("Recharge")->with([
         'urlLogo' => $urlLogo,
