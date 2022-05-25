@@ -5,7 +5,7 @@
     <div class="bg-white drop-shadow-xl rounded-md">
     <div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-        <span class="block">Votre recharge actuel est de : </span>
+        <span class="block">Votre recharge actuelle est de : </span>
         </h2>
         <div class="mt-8 flex justify-center">
         <div class="inline-flex rounded-md shadow">
