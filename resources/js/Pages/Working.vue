@@ -69,7 +69,7 @@ export default {
                         id: 5,
                         question: "Comment recharger mon compte   ?",
                         answer:
-                        "Pour recharger votre compte il suffit de faire un dépôt wafacash sur ce numéro de compte 0648 5140 0094 1931 puis d'envoyer la photo du reçu sur ce whatsapp 0600670446 . Votre recharge sera alors validée.",
+                        "Pour recharger votre compte il suffit de faire un dépôt wafacash sur ce numéro de compte 0648 5140 0094 1931 puis d'envoyer la photo du reçu sur ce whatsapp +212 07 76 09 19 82 . Votre recharge sera alors validée.",
                     },
                     {
                         id: 6,

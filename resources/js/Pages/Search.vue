@@ -108,25 +108,7 @@ defineProps({
                     </h2>
 
                   </div>
-                  <div class="mt-6 flex justify-between space-x-8">
-                    <div class="flex space-x-6">
-                      <span class="inline-flex items-center text-sm">
-                        <button type="button" class="inline-flex space-x-2 text-gray-400 hover:text-gray-500">
-                          <ThumbUpIcon class="h-5 w-5" aria-hidden="true" />
-                          <span class="font-medium text-gray-900">30</span>
-                          <span class="sr-only">J'aime</span>
-                        </button>
-                      </span>
-                    </div>
-                    <div class="flex text-sm">
-                      <span class="inline-flex items-center text-sm">
-                        <button type="button" class="inline-flex space-x-2 text-gray-400 hover:text-gray-500">
-                          <ShareIcon class="h-5 w-5" aria-hidden="true" />
-                          <span class="font-medium text-gray-900">Partager</span>
-                        </button>
-                      </span>
-                    </div>
-                  </div>
+
                 </article>
               </li>
             </ul>
